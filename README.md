@@ -6,7 +6,7 @@
 
   `使用的硬件配置`
   -------------------------------------  
-   联想ThinkPad T580 【4k显示屏：3840x2160（京东方BOE NV156QUM-N44，非触摸）】
+   联想ThinkPad T580 【4kUHD显示屏：3840x2160（京东方BOE NV156QUM-N44，非触摸）】
    ------------------------------------
     
   *  英特尔i7-8550U CPU
@@ -23,7 +23,7 @@
   
   *  蓝牙设备芯片组20702A0使用BrcmPatchRAM2.kext，BrcmFirmwareData.kext
   
-  *  瑞昱Realtek ALC3287（“ALC257”）通过AppleALC.kext与layout-id：11
+  *  瑞昱Realtek ALC3287（“ALC257”）通过AppleALC.kext与layout-id：11，支持耳机和自带喇叭之间插拔自动切换。
   
   *  Intel UHD Graphics 620（禁用Nvidia MX150，macOS不支持Optimus）
  
