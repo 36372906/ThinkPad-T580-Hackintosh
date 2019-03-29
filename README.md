@@ -13,7 +13,7 @@
     
   *  内存16GB RAM DDR4 2400-SODIMM
     
-  *  东芝Q200EX SSD+128G 东芝nvme
+  *  东芝Q200EX SSD+128G 东芝nvme联想跟机带
   
   *  英特尔以太网I219-V4 有线网卡
   
@@ -31,7 +31,7 @@
  
   *  SD卡读卡器走usb3.0通道，需要打开此USB端口即可使用
   
-  *  Thunderbolt 3（USB type-c工作，可以接扩展坞和视频输出）
+  *  Thunderbolt 3【BIOS里需要设置“Thunderbolt BIOS Assist”：Disable，即可使前端类型USB type-c端口在macOS中工作，可以热插拔连接扩展坞和视频输出】
   
   *  键盘/ Elan触摸板（PS / 2）使用ApplePS2SmartTouchPad.kextEMlyDinEsH的v4.7b5，支持多点触控手势,需要在BIOS中禁用Trackpoint（否则触摸板将被断开）,需要修补ApplePS2SmartTouchPad已在此repo中修补的二进制文件（否则驱动程序报告不支持的模型）。
   
@@ -47,7 +47,7 @@
   *  WWAN（无模块）
   *  Synaptics Trackpoint（使用时可以启用VoodooPS2Controller.kext）
   *  TrackPad Synaptics指纹识别器无法驱动
-  *  固件修订
+  *  UEFI固件修订
     
     BIOS版本 1.20
   
