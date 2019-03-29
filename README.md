@@ -6,7 +6,7 @@
 
   `使用的硬件配置`
   -------------------------------------  
-   联想ThinkPad T580 （3840x2160）
+   联想ThinkPad T580 【4k显示屏：3840x2160（京东方BOE NV156QUM-N44，非触摸）】
    ------------------------------------
     
   *  英特尔i7-8550U CPU
@@ -26,8 +26,6 @@
   *  瑞昱ALC257（“ALC257”）通过AppleALC.kext与layout-id使用11
   
   *  Intel UHD Graphics 620（禁用Nvidia MX150，macOS不支持Optimus）
-  
-  *  4k显示屏（京东方BOE NV156QUM-N44，非触摸）
  
   *  ACPI热修补电源管理和双电池状态
  
