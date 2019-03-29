@@ -25,7 +25,9 @@
   
   *  瑞昱ALC257（“ALC257”）通过AppleALC.kext与layout-id使用11
   
-  *  Intel UHD Graphics 620（禁用Nvidia MX150，macOS不支持Optimus），4k屏幕（BOE NV156QUM-N44，哑光非触摸）
+  *  Intel UHD Graphics 620（禁用Nvidia MX150，macOS不支持Optimus）
+  
+  *  4k显示屏（京东方BOE NV156QUM-N44，非触摸）
  
   *  ACPI热修补电源管理和双电池状态
  
@@ -49,9 +51,10 @@
   *  WWAN（无模块）
   *  Synaptics Trackpoint（使用时可以启用VoodooPS2Controller.kext）
   *  TrackPad Synaptics指纹识别器无法驱动
-  *  UEFI固件修订
-    
-    BIOS版本 1.20
+ 
+ UEFI固件修订
+ ---------------------   
+  *  BIOS版本 1.20
   
  目前存在的问题
  --------------------
