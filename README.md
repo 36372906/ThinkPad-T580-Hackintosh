@@ -47,8 +47,9 @@
 已禁用的设备
 ----------------------
   *  WWAN（无模块）
-  *  Synaptics Trackpoint（使用时可以启用VoodooPS2Controller.kext）
+  *  Synaptics Trackpoint（启用时可以使用VoodooPS2Controller.kext）
   *  TrackPad Synaptics指纹识别器无法驱动
+  *  BIOS里设置Thunderbolt BIOS Assist为Disable，否则USB type-c无法正常工作。
  
  UEFI固件修订
  ---------------------   
@@ -57,7 +58,7 @@
  目前存在的问题
  --------------------
   *  偶尔睡眠后唤醒蓝牙会丢失
-  *  唤醒后电源指示灯始终呼吸闪亮
+  *  唤醒后电源指示灯始终呼吸闪烁
 
 `备注`
    ---
