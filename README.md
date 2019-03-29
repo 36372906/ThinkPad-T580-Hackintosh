@@ -31,10 +31,10 @@
   
   *  键盘/ Elan触摸板（PS / 2）使用ApplePS2SmartTouchPad.kextEMlyDinEsH的v4.7b5，支持多点触控手势,需要在BIOS中禁用Trackpoint（否则触摸板将被断开）,需要修补ApplePS2SmartTouchPad已在此repo中修补的二进制文件（否则驱动程序报告不支持的模型）。
   
-  *  Offset      Original    Patched 
+  *  Offset   Original    Patched 
     
-    0000ABF5    72          EB
-    0000AC2D    01          04
+    0000ABF5      72      EB
+    0000AC2D      01      04
 
 已禁用的设备
 ----------------------
