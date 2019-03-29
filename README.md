@@ -4,21 +4,21 @@
 此存储库包含10.14在Lenovo ThinkPad T580上运行macOS（目前为Mojave ）的示例配置
 --------------------------------------------------------------------------
 
-    `使用的硬件配置`
+    `使`用`的`硬`件`配`置`
     
-    联想ThinkPad T580
+  *  联想ThinkPad T580
     
-    英特尔i7-8550U
+  *  英特尔i7-8550U
     
-    内存16GB RAM DDR4 2400-SODIMM
+  *  内存16GB RAM DDR4 2400-SODIMM
     
-    东芝Q200EX SSD+128G 东芝nvme
+  *  东芝Q200EX SSD+128G 东芝nvme
     
-    戴尔DW1830无线（原装英特尔AC8265无法正常工作）
-    Wi-Fi设备显示为Apple Airport ExtremeAirportBrcmFixup.kext
-    蓝牙设备芯片组20702A0使用BrcmPatchRAM2.kext
-    瑞昱ALC257通过AppleALC.kext与layout-id11
-. Intel UHD Graphics 620（禁用Nvidia MX150，macOS不支持Optimus）
+  *  戴尔DW1830无线（原装英特尔AC8265无法正常工作）
+  *  Wi-Fi设备显示为Apple Airport ExtremeAirportBrcmFixup.kext
+  *  蓝牙设备芯片组20702A0使用BrcmPatchRAM2.kext
+  *  瑞昱ALC257通过AppleALC.kext与layout-id11
+  *  Intel UHD Graphics 620（禁用Nvidia MX150，macOS不支持Optimus）
 . ACPI热修补电源管理和双电池状态
 . 集成摄像头（开箱即用）
 . 键盘/ Elan触摸板（PS / 2）使用ApplePS2SmartTouchPad.kextEMlyDinEsH的v4.7b5
