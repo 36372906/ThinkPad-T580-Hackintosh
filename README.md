@@ -9,21 +9,23 @@
    联想ThinkPad T580
    ------------------------------------
     
-  *  英特尔i7-8550U
+  *  英特尔i7-8550U CPU
     
   *  内存16GB RAM DDR4 2400-SODIMM
     
   *  东芝Q200EX SSD+128G 东芝nvme
-    
+  
+  *  英特尔以太网I219-V4 有线网卡
+  
   *  戴尔DW1830无线（原装英特尔AC8265无法正常工作）
   
   *  Wi-Fi设备显示为Apple Airport Extreme使用AirportBrcmFixup.kext
   
   *  蓝牙设备芯片组20702A0使用BrcmPatchRAM2.kext，BrcmFirmwareData.kext
   
-  *  瑞昱ALC257通过AppleALC.kext与layout-id11
+  *  瑞昱ALC257（“ALC257”）通过AppleALC.kext与layout-id使用11
   
-  *  Intel UHD Graphics 620（禁用Nvidia MX150，macOS不支持Optimus）
+  *  Intel UHD Graphics 620（禁用Nvidia MX150，macOS不支持Optimus），4k屏幕（BOE NV156QUM-N44，哑光非触摸）
  
   *  ACPI热修补电源管理和双电池状态
  
@@ -43,8 +45,8 @@
 已禁用的设备
 ----------------------
   *  WWAN（无模块）
-  *  Trackpoint（使用时可以启用VoodooPS2Controller.kext）
-  *  指纹扫描仪无法驱动
+  *  Synaptics Trackpoint（使用时可以启用VoodooPS2Controller.kext）
+  *  TrackPad Synaptics指纹识别器无法驱动
   *  固件修订
     
     BIOS版本 1.20
