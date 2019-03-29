@@ -23,7 +23,7 @@
   
   *  蓝牙设备芯片组20702A0使用BrcmPatchRAM2.kext，BrcmFirmwareData.kext
   
-  *  瑞昱ALC257（“ALC257”）通过AppleALC.kext与layout-id使用11
+  *  瑞昱Realtek ALC3287（“ALC257”）通过AppleALC.kext与layout-id使用11
   
   *  Intel UHD Graphics 620（禁用Nvidia MX150，macOS不支持Optimus）
  
