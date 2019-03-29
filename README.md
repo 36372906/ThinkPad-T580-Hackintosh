@@ -19,9 +19,9 @@
   
   *  戴尔DW1830无线（原装英特尔AC8265无法正常工作）
   
-  *  Wi-Fi设备显示为Apple Airport Extreme使用AirportBrcmFixup.kext
+  *  Wi-Fi设备芯片组为(0x14E4, 0x20) 显示Airport Extreme 使用AirportBrcmFixup.kext
   
-  *  蓝牙设备芯片组20702A0使用BrcmPatchRAM2.kext，BrcmFirmwareData.kext
+  *  蓝牙设备芯片组20703A1,固件版本:v5 c4518 使用BrcmPatchRAM2.kext，BrcmFirmwareData.kext
   
   *  瑞昱Realtek ALC3287（“ALC257”）通过AppleALC.kext与layout-id：11，支持耳机和自带喇叭之间插拔自动切换。
   
