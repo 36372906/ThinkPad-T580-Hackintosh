@@ -16,17 +16,25 @@
   *  东芝Q200EX SSD+128G 东芝nvme
     
   *  戴尔DW1830无线（原装英特尔AC8265无法正常工作）
-  *  Wi-Fi设备显示为Apple Airport ExtremeAirportBrcmFixup.kext
-  *  蓝牙设备芯片组20702A0使用BrcmPatchRAM2.kext
+  
+  *  Wi-Fi设备显示为Apple Airport Extreme使用AirportBrcmFixup.kext
+  
+  *  蓝牙设备芯片组20702A0使用BrcmPatchRAM2.kext，BrcmFirmwareData.kext
+  
   *  瑞昱ALC257通过AppleALC.kext与layout-id11
+  
   *  Intel UHD Graphics 620（禁用Nvidia MX150，macOS不支持Optimus）
+ 
   *  ACPI热修补电源管理和双电池状态
+ 
   *  SD卡读卡器走usb3.0通道，需要打开此USB端口即可使用
+  
   *  键盘/ Elan触摸板（PS / 2）使用ApplePS2SmartTouchPad.kextEMlyDinEsH的v4.7b5，支持多点触控手势,需要在BIOS中禁用Trackpoint（否则触摸板将被断开）,需要修补ApplePS2SmartTouchPad已在此repo中修补的二进制文件（否则驱动程序报告不支持的模型）。
+  
   *  Offset      Original    Patched 
     
-     0000ABF5    72          EB
-     0000AC2D    01          04
+    0000ABF5    72          EB
+    0000AC2D    01          04
 
 已禁用的设备
 ----------------------
