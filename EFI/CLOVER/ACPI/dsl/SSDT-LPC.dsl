@@ -33,7 +33,7 @@ DefinitionBlock("", "SSDT", 2, "hack", "_LPC", 0)
             // list of 9-series LPC device-ids not natively supported (partial list)
             0x8cc6,
             // list of 100-series LPC device-ids not natively supported (partial list)
-            0x9d48, 0x9d58, 0xa14e, 0xa150,
+            0x9d48, 0x9d4e, 0x9d58, 0xa14e, 0xa150,
             // and 200-series...
             0xa2c5, 0,
             Package()
