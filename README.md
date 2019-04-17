@@ -50,10 +50,12 @@
 * Synaptics Trackpoint（启用时可以使用VoodooPS2Controller.kext）
 * TrackPad Synaptics指纹识别器无法驱动
 * BIOS里设置Thunderbolt BIOS Assist为Disable，否则USB type-c无法正常工作。
+* 设置BIOS里usb电源管理enable（这样雷电口type-c就可以热插拔type-c外设）
 
 UEFI固件修订
 -----------
 * BIOS版本 1.20
+
 
 目前存在的问题
 -------------
