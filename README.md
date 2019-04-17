@@ -39,6 +39,7 @@
 * Offset Original Patched
 
     0000ABF5    72    EB
+    
     0000AC2D    01    04
 
 * 可以睡眠和唤醒
