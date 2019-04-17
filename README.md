@@ -44,13 +44,14 @@
 
 * 睡眠和唤醒正常
 
-已禁用的设备
+已禁用的设备和BIOS设置
 -----------
 * WWAN（无模块）
 * Synaptics Trackpoint（启用时可以使用VoodooPS2Controller.kext）
 * TrackPad Synaptics指纹识别器无法驱动
 * BIOS里设置Thunderbolt BIOS Assist为Disable，否则USB type-c无法正常工作。
 * 设置BIOS里usb电源管理enable（这样雷电口type-c就可以热插拔type-c外设）
+* 关闭安全启动
 
 UEFI固件修订
 -----------
