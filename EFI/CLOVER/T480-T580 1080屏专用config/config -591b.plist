@@ -368,7 +368,7 @@
 	<key>BootGraphics</key>
 	<dict>
 		<key>UIScale</key>
-		<integer>2</integer>
+		<integer>1</integer>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -465,9 +465,9 @@
 			<true/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>3840x2160</string>
+		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>Mojave4k</string>
+		<string>Mac</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
