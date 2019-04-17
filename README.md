@@ -6,7 +6,8 @@
 
 
 * 联想ThinkPad T580 【4k的UHD显示屏：3840x2160（京东方BOE NV156QUM-N44，非触摸）】
-英特尔i7-8550U CPU
+
+* 英特尔i7-8550U CPU
 
 * 内存16GB RAM DDR4 2400-SODIMM
 
@@ -36,17 +37,24 @@
 
 * Offset Original Patched
 
-0000ABF5    72    EB
-0000AC2D    01    04
+* 0000ABF5    72    EB
+* 0000AC2D    01    04
+
 * 可以睡眠和唤醒
+
 已禁用的设备
+-----------
 * WWAN（无模块）
 * Synaptics Trackpoint（启用时可以使用VoodooPS2Controller.kext）
 * TrackPad Synaptics指纹识别器无法驱动
 * BIOS里设置Thunderbolt BIOS Assist为Disable，否则USB type-c无法正常工作。
+
 UEFI固件修订
+-----------
 * BIOS版本 1.20
+
 目前存在的问题
+-------------
 * 偶尔睡眠后唤醒蓝牙会丢失
 备注
 * （重要）您需要config.plist使用唯一的序列号生成一个正确的：
