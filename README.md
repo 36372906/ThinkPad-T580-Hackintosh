@@ -61,7 +61,9 @@ UEFI固件修订
 目前存在的问题
 -------------
 * 偶尔睡眠后唤醒蓝牙会丢失
+
 备注
+--------
 * （重要）您需要config.plist使用唯一的序列号生成一个正确的：
 * 运行./tools/gen.sh（macOS）或tools\gen.bat（Windows）生成config.plist。
 * 添加-f或--force标记以config.plist使用新序列号强制重新生成。
