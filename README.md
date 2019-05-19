@@ -16,11 +16,11 @@
 
 * 英特尔以太网I219-V4 有线网卡
 
-* 戴尔DW1830无线（原装英特尔AC8265无法正常工作）
+* Mac原装无线网卡bcm94360cs2（原装英特尔AC8265无法正常工作）
 
-* Wi-Fi设备芯片组为(0x14E4, 0x20) 显示Airport Extreme 使用AirportBrcmFixup.kext
+* Wi-Fi设备芯片组为(0x14E4, 0x117) 显示Airport Extreme 使用AirportBrcmFixup.kext
 
-* 蓝牙设备芯片组20703A1,固件版本:v5 c4518 使用BrcmPatchRAM2.kext，BrcmFirmwareData.kext
+* 蓝牙设备芯片组20702B0,固件版本:v150 c9318 免驱动
 
 * 瑞昱Realtek ALC3287（“ALC257”）通过AppleALC.kext与layout-id：11，支持耳机和自带喇叭之间插拔自动切换。
 
@@ -34,20 +34,12 @@
 
 * 机器自带独立的HDMI端口：可以输出4k@30HZ到显示器。连接时会显示音频设备HDMI，并正常使用。
 
-* 键盘Synaptics触摸板（PS / 2）使用ApplePS2SmartTouchPad.kext，EMlyDinEsH的v4.7b5，支持多点触控手势,需要在BIOS中禁用Trackpoint（否则触摸板将被断开）,需要修补ApplePS2SmartTouchPad已在此repo中修补的二进制文件（否则驱动程序报告不支持的模型）。
-
-* Offset Original Patched
-
-    0000ABF5    72    EB
-    
-    0000AC2D    01    04
-
+* 键盘Synaptics触摸板（PS / 2）使用ApplePS2SmartTouchPad.kext，EMlyDinEsH的v4.7b5，支持多点触控手势。
 * 睡眠和唤醒正常
 
 已禁用的设备和BIOS设置
 -----------
 * WWAN（无模块）
-* Synaptics Trackpoint（启用时可以使用VoodooPS2Controller.kext）
 * TrackPad Synaptics指纹识别器无法驱动
 * BIOS里设置Thunderbolt BIOS Assist为Disable，否则USB type-c无法正常工作。
 * 设置BIOS里usb电源管理enable（这样雷电口type-c就可以热插拔type-c外设）
@@ -60,7 +52,7 @@ UEFI固件修订
 
 目前存在的问题
 -------------
-* 偶尔睡眠后唤醒蓝牙会丢失
+* 无
 
 备注
 --------
